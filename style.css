@@ -22,4 +22,7 @@ flex-wrap: wrap;
 margin: 12px;
 padding: 7px;
 list-style: none;
+background: #fff;
+border-radius: 6px;
+box-shadow: 0 ;
 }
