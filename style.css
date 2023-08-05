@@ -1,12 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap'); 
-
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+ 
 * {
-margin: 0;
+ margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Open Sans',
-sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
-body { 
-background: white
-;} 
+
+body {
+background: white;
+}
+
+.container {
+margin: 20px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.container .color {
+margin: 12px;
+padding: 7px;
+list-style: none;
+}
