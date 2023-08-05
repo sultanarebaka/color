@@ -32,6 +32,13 @@ text-align: center;
 transform: scale(0.95);
 } 
 
+.color .box {
+width: 185px;
+height: 188px;
+border-radius: 4px;
+} 
+
+
 
 
 
