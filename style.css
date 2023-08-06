@@ -38,6 +38,28 @@ height: 188px;
 border-radius: 4px;
 } 
 
+.color:hover .box {
+filter:brightness(100%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
