@@ -58,3 +58,14 @@ background: black;
 .refresh-btn:hover {
 background:red;
 }
+
+@media screen and (max-width: 500px){
+.container { 
+margin: 10px;
+}
+
+.container .color {
+margin: 8px;
+
+} 
+}
