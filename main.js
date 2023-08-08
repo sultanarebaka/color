@@ -13,3 +13,8 @@ container.innerHTML = "";
 
  }
  
+
+ // new 'li' element and inserting it 
+ const color = document.createElement("li");
+  color.classList.add("color");
+  color.innerHTML  
