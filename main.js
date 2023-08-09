@@ -1,20 +1,26 @@
 const container = document.querySelector(".container");
+const refreshBtn = document.querySelector(".refresh-btn");
+refreshBtn.addEventListener("click", generatePalette);
 
-const refreshBtn = document.querySelector(".refresh-btn"); 
+const maxPaletteBoxes = 32;
 
 
 const generatePalette = () => {
-container.innerHTML = ""; 
+    container.innerHTML = ""; 
+    
+    // clearing the container
+    for (let i = 0; i < maxPaletteBoxes; i++)
+    {
+        
+    
+    const color = document.createElement("li");
+    
+    color.classList.add("color");
+    color.innerHTML = `<div class="rect-box" style="background: ${randomHex}">
+
+    </div> <span class="hex-value">${randomHex}</span>`;
+
+
+
+    }
 }
-
-
-// container
- for (let i = 0; i < PaletteBoxes; i++) {
-
- }
- 
-
- // new 'li' element and inserting it 
- const color = document.createElement("li");
-  color.classList.add("color");
-  color.innerHTML  
