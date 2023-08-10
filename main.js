@@ -1,9 +1,4 @@
-
-
-
-
-
- container = document.querySelector(".container");
+const container = document.querySelector(".container");
 const refreshBtn = document.querySelector(".refresh-btn");
 refreshBtn.addEventListener("click", generatePalette);
 
@@ -27,17 +22,12 @@ const generatePalette = () => {
 
 
 
+
     }
 }
-   
+
+// click event 
+
 color.addEventListener("click", () => copyColor(color, randomHex));
-
-container.appendChild(color); 
-} }
-
-generatePalette();
-
-
-
 
 
