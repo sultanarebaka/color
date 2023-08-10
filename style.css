@@ -41,3 +41,27 @@ body {
     filter: brightness(107%);
 }
 
+
+.color .hex-value {
+    display: block;
+    color: #444;
+}
+   
+
+.refresh-btn {
+    position: fixed;
+    left: 50%;
+     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
