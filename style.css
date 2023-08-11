@@ -62,7 +62,27 @@ body {
     .container { margin: 10px;
     }
 
+
+container .color {
+        margin: 8px;
+        padding: 5px;
+        width:100%;
+    } 
+    
+    .color .rect-box {
+        width: 100%;
+        height: 148px;
+    } 
+
+
 }
+
+
+
+
+
+
+
 
 
 
