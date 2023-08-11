@@ -75,7 +75,30 @@ container .color {
     } 
 
 
+
+.color .hex-value {
+        font-size: 1.05rem;
+    }
+    
+    .refresh-btn {
+        font-size: 1rem;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
