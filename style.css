@@ -45,6 +45,11 @@ body {
 .color .hex-value {
     display: block;
     color: #444;
+    font-size: 1.15rem;
+    margin: 12px 0 8px;
+    text-transform: uppercase;
+    user-select: none;
+    font-weight: 500;
 }
    
 
@@ -84,6 +89,25 @@ container .color {
         font-size: 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
