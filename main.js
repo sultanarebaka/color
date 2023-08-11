@@ -2,7 +2,7 @@
 
 
 
- container = document.querySelector(".container");
+ const container = document.querySelector(".container");
 const refreshBtn = document.querySelector(".refresh-btn");
 refreshBtn.addEventListener("click", generatePalette);
 
@@ -43,6 +43,7 @@ let randomHex = Math.floor(Math.random() * 0xffffff).toString(16);
 
 
 
+color.addEventListener("click", () => copyColor(color, randomHex));
 
 
 
@@ -59,6 +60,15 @@ let randomHex = Math.floor(Math.random() * 0xffffff).toString(16);
 
 
     
+
+
+
+
+
+
+
+
+
 
 
 
