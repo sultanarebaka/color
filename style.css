@@ -57,6 +57,11 @@ body {
     position: fixed;
     left: 50%;
      color: #fff;
+   cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 5px;
 }
 
 .refresh-btn:hover {
