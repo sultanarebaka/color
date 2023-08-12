@@ -62,7 +62,17 @@ body {
     font-weight: 500;
     font-size: 1.1rem;
     border-radius: 5px;
+    padding: 13px 20px;
+    border: 2px solid #fff;
+  
 }
+
+
+
+    
+
+
+
 
 .refresh-btn:hover {
     background: #704dff;
@@ -94,6 +104,12 @@ container .color {
         font-size: 1rem;
     }
 }
+
+
+
+
+
+
 
 
 
