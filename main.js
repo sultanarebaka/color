@@ -26,7 +26,7 @@ const generatePalette = () => {
     color.classList.add("color");
     color.innerHTML = `<div class="rect-box" style="background: ${randomHex}">
 
-    </div> <span class="hex-value">${randomHex}</span>`;
+    </div> <span class="hex-value">${red}</span>`;
 
 
 
