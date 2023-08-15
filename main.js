@@ -49,7 +49,9 @@ color.addEventListener("click", () => copyColor(color, randomHex));
 
 
 
-
+const copyColor = (elem, hexVal) => {
+    const colorElement = elem.querySelector(".hex-value");
+    }
 
 
 
