@@ -35,8 +35,8 @@ generatePalette();
 const copyColor = (elem, hexVal) =>
 
 
-
-
+setTimeout(() => colorElement.innerText = hexVal, 1000);
+    });
 
 
 
