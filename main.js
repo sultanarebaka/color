@@ -30,7 +30,9 @@ refreshBtn.addEventListener("click", generatePalette);
 
 
 
+generatePalette();
 
+const copyColor = (elem, hexVal) =>
 
 
 
