@@ -43,6 +43,8 @@ colorElement.innerText = "Copied";
 
 
 
+color.addEventListener("click", () => copyColor(color, randomHex));
+        container.appendChild(color);
     
 
 
