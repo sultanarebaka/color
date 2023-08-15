@@ -53,5 +53,38 @@ body {
     text-transform: uppercase;
 }
 
+.refresh-btn {
+    position: fixed;
+    bottom:
+    24px;
+    color: black;
+    cursor: pointer;
+    left:50%;
+    outline: none;
+    font-weight:500;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    background: #DDFFBB;
+    padding: 13px 20px;
+    border-radius:1px solid #fff;
+    transform: translateX(-50% );
+    transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background: #C7E9B0;
+}
+
+@media screen and(max-width: 500px) {
+    .container { margin: 10px;
+    }
+
+
+
+
+
+
+
+
 
 
