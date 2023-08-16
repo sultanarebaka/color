@@ -9,7 +9,10 @@ const generatePalette = () => {
     for (let i = 0; i < maxPaletteBoxes; i++) {
         
 
-
-
+        // 'li' element
+        const color = document.createElement("li");
+        color.classList.add("color");
+        color.innerHTML = `<div class="rect-box" style="background: ${randomHex}"></div>
+                           <span class="hex-value">${randomHex}</span>`;
 
 
