@@ -37,7 +37,6 @@
  }
  
 
-
 .color .hex-value {
   display: block;
   color: #444;
@@ -47,25 +46,6 @@
   user-select: none;
   font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 .refresh-btn {
   position: fixed;
@@ -85,20 +65,6 @@
    transition: all 0.3s ease;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .refresh-btn:hover {
   background: #704dff;
