@@ -80,8 +80,14 @@
   border-radius: 5px;
   padding: 13px 20px;
   border: 2px solid #fff;
+  transform: translateX(-50%);
+   box-shadow: 0 15px 30px;
+   transition: all 0.3s ease;
 
 }
+
+
+
 
 
 
@@ -124,3 +130,14 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+     
